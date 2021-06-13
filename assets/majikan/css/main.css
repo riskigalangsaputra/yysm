@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px
+}
+
+body,
+html {
+	height: 100%
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	background-color: #ffffff;
+}
+
+.navbar-top {
+	background-color: #00539C;
+}
+
+.navbar-top .btn-profile {
+	background-color: none;
+	outline: 0 !important;
+	border: 0 !important;
+	box-shadow: none !important;
+	color: #ffffff;
+}
+
+.navbar-top .btn-profile:hover {
+	background-color: none;
+	outline: 0 !important;
+	border: 0 !important;
+	box-shadow: none !important;
+	color: #ffffff;
+}
+
+.navbar-top .dropdown-menu a {
+	font-size: 12px;
+}
+
+.navbar-top .dropdown-menu a:hover {
+	background-color: #00539C;
+	color: #ffffff;
+}
+
+/* Navbar Search */
+.has-search .form-control {
+	padding-left: 40px;
+	width: 580px;
+	outline: 0 !important;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+
+.has-search .form-control-feedback {
+	position: absolute;
+	z-index: 20;
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	pointer-events: none;
+	color: #aaa;
+}
+
+.jumbotron {
+	height: 350px;
+}
+
+.jumbotron-fluid {
+	background-image: url('../img/slider/single.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 450px 80px;
+	background-color: #d0cfd4;
+}
+
+.rekomendasi {
+	margin-top: 50px;
+}
+
+.rekomendasi .rekomendasi-prt {
+	margin-bottom: 20px;
+}
+
+.rekomendasi .rekomendasi-prt h3 {
+	font-size: 22px;
+}
+
+.rekomendasi .rekomendasi-prt h6 {
+	font-size: 16px;
+	color: #00539C;
+	text-decoration: none;
+}
+
+.rekomendasi .rekomendasi-prt h6 a:hover {
+	font-size: 16px;
+	color: #00437e;
+	text-decoration: none;
+}
+
+/* Card Pembantu */
+.card-pembantu h5 {
+	font-size: 20px;
+	color: #00539C;
+	font-weight: 600;
+}
+
+.card-pembantu p {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.card-pembantu .card-harga {
+	font-size: 18px;
+	color: #00539C;
+	font-weight: 600;
+}
+
+.card-pembantu small {
+	font-size: 11px;
+}
+
+/* Card Pembantu Banyak Dilihat */
+.banyak-dilihat {
+	margin-top: 50px;
+}
+
+.banyak-dilihat .banyak-dilihat-prt {
+	margin-bottom: 20px;
+}
+
+.banyak-dilihat .banyak-dilihat-prt h3 {
+	font-size: 22px;
+}
+
+.banyak-dilihat .banyak-dilihat-prt h6 {
+	font-size: 16px;
+	color: #00539C;
+	text-decoration: none;
+}
+
+.banyak-dilihat .banyak-dilihat-prt h6 a:hover {
+	font-size: 16px;
+	color: #00437e;
+	text-decoration: none;
+}
+
+.card-banyak-dilihat h5 {
+	font-size: 20px;
+	color: #00539C;
+	font-weight: 600;
+}
+
+.card-banyak-dilihat p {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.card-banyak-dilihat .card-harga {
+	font-size: 18px;
+	color: #00539C;
+	font-weight: 600;
+}
+
+.card-banyak-dilihat small {
+	font-size: 11px;
+}
+
+/* Detail Pembantu */
+.detail-pembantu {
+	margin-top: 50px;
+}
+
+.bg-footer {
+	margin-top: 10%;
+	background-color: #00539C;
+	color: #ffffff;
+}
+
+.bg-footer small {
+	font-size: 14px;
+}
